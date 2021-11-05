@@ -1,0 +1,403 @@
+html, body {
+    background-color: #1B1B1B;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color: #1B1B1B;
+    height: auto;
+    width: 100%;
+    box-shadow: black 0px 1px 7px;
+    position: relative;
+}
+
+nav {
+    width: 1094px;
+    height: 123px;
+    margin: 0 auto;
+}
+
+.header-img {
+    width: 1366px;
+    height: 643px;
+    object-fit: contain;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav1 {
+    list-style: none;
+    padding-top: 49px;
+    margin: 0 auto;
+    float: left;
+}
+
+.nav1 li {
+    display: inline;
+    padding-right: 60px;
+}
+
+.nav2 {
+    list-style: none;
+    margin-top: 49px;
+    float: right;
+}
+
+.nav2 li {
+    display: inline;
+    padding-left: 60px;
+}
+
+#boxed {
+    border: solid 1px white;
+    padding: 18px 25px 18px 25px;
+}
+
+.links {
+    width: 400px;
+    float: left;
+}
+
+.midden{
+    width: 294px;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.rechts {
+    width: 400px;
+    float: left;
+}
+
+h1 {
+    color: #E4E1E0;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 17.8px;
+    font-size: 50px;
+}
+
+h2 {
+    color: #D5B9A1;
+    width: 293px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 114.4px;
+    line-height: 29px;
+}
+
+section {
+    width: 1094px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-page {
+    width: 1094px;
+    height: auto;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.page {
+    margin-bottom: 20px;
+    padding-right: 19px;
+}
+
+.section-float{
+    width: 1096px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 114.5px;
+}
+
+.section-full {
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-full5 {
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-full1 {
+    width: 1366px;
+    height: 644px;
+    margin: 0 auto;
+    background-image: url(../img/tesla\ model\ s.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.blok1 {
+    width: 342px;
+    margin-bottom: 26.2px;
+    transition: transform .2s;
+    float: left;
+    margin-right: 34px;
+}
+
+.blok1:hover {
+    transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+}
+
+.img-blok1 {
+    width: 342px;
+    height: 429px;
+}
+
+.blok2 {
+    width: 342px;
+    margin-bottom: 26.2px;
+    transition: transform .2s;
+    float: left;
+    margin-right: 34px;
+}
+
+.blok2:hover {
+    transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+}
+
+.blok3 {
+    width: 342px;
+    margin-bottom: 26.2px;
+    transition: transform .2s;
+    float: left;
+}
+
+.blok3:hover {
+    transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+}
+
+.img-blok4 {
+    width: 1366px;
+    height: 378px;
+}
+
+.pop {
+    color: #E4E1E0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25.5px;
+}
+
+.vid {
+    margin-bottom: 80px;
+}
+
+.img-blok5 { 
+    width: 482px;
+}
+
+.blok5 {
+    width: 482px;
+    margin-bottom: 45px;
+    transition: transform .2s;
+    float: left;
+    margin-right: 130px;
+}
+.blok5:hover {
+    transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+}
+
+.blok6 {
+    width: 482px;
+    margin-bottom: 45px;
+    transition: transform .2s;
+    float: left;
+}
+.blok6:hover {
+    transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+}
+
+.section-stories {
+    border-bottom:  solid 1px;
+    color: white;
+    width: 1094px;
+}
+.blok p {
+    text-align: center;
+}
+
+.seb {
+    color: #D5B9A1;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 26.2px;
+    margin-bottom: 17.8px;
+}
+
+.artikel-tekst {
+    color: #E4E1E0;
+    font-weight: 500;
+    font-size: 25.5px;
+    margin-top: 42.1px;
+}
+
+.artikel-datum {
+    color: #D5B9A1;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 32.9px;
+}
+
+.andere-artikelen {
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.img-blok6 {
+    width: 341.5px;
+    height: 328px;
+    object-fit: cover;
+}
+
+.footer-blok1 {
+    float: left;
+}
+
+.section-full2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #D5B9A1;
+    padding-top: 120px;
+    padding-bottom: 118px;
+    margin-top: -30px;
+}
+
+#tekst-contact {
+    font-size: 25.5px;
+    line-height: 30px;
+    width: 273px;
+    margin-left: 136px;
+    float: left;
+}
+
+.blok-mail {
+    height: 60px;
+    width: 435px;
+    background-color: white;
+    float: right;
+    margin-right: 134px;
+}
+
+#stark {
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 26px;
+    color: #B8B8B8;
+}
+
+.section-full3 {
+    width: 100%;
+    height: 544px;
+    margin: 0 auto;
+    background-color: #E4E1E0;
+}
+
+#tekst-contact2 {
+    font-size: 20px;
+}
+
+.social { 
+float: left;
+width: 33%;
+margin-top: 244px;
+}
+
+.socials {
+    padding-right: 30px;
+}
+
+.ons {
+    text-align: right;
+    text-decoration: underline #1B1B1B 1px;
+}
+
+.media {
+text-align: center;
+}
+
+#tekst-contact3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747;
+    padding-top: 16px;
+}
+.section-tekst {
+    width: 654px;
+    height: auto;
+}
+
+h3 {
+    font-size: 30px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 40px;
+    color: #E4E1E0;
+    margin-bottom: 60px;
+}
+
+h4 {
+    color: #E4E1E0;
+    width: 100%;
+    font-size: 24px;
+    text-align: left;
+    line-height: 40px;
+}
+
+h5 {
+    color: #D5B9A1;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 147px;
+}
+
+.blokartikel1{
+    background-color: blue;
+    width: 1366px;
+    height: 457.32px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.artikel-pagina {
+    width: 994px;
+    margin-top: 130px;
+}
